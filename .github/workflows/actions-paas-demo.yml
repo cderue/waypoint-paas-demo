@@ -25,7 +25,7 @@ env:
 
 jobs:
   call-waypoint-up:
-    name: Call Waypoint Up
+    name: Publish the app
     runs-on: ubuntu-latest
     steps:
       - name: 'Az CLI login using OIDC'
