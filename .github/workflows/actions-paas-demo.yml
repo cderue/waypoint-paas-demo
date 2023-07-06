@@ -6,14 +6,14 @@ on:
     branches:
       - 'main'
     # only build when important files change
-    paths:
-      - 'app'
+    #paths:
+    #  - 'app'
   pull_request:
     branches:
       - 'main'
     # only build when important files change
-    paths:
-      - 'app'
+    #paths:
+    #  - 'app'
       
 permissions:
   id-token: write
