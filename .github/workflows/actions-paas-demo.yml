@@ -7,15 +7,13 @@ on:
       - 'main'
     # only build when important files change
     paths:
-      - '/**'
-      - '.github/workflows/actions-paas-demo.yaml'
+      - 'app'
   pull_request:
     branches:
       - 'main'
     # only build when important files change
     paths:
-      - '/**'
-      - '.github/workflows/actions-paas-demo.yaml'
+      - 'app'
       
 permissions:
   id-token: write
